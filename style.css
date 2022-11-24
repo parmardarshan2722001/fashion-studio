@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta';
+}
+
+header {
+    overflow: auto;
+    text-align: center;
+    display: inline block;
+    background-color: black;
+    opacity: 4;
+
+}
+
+.logo {
+    padding: 20px;
+    float: left;
+}
+
+.searchbar {
+    padding-top: 70px;
+    display: inline-block;
+}
+
+#search {
+    color: white;
+    background-color: black;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid white;
+
+}
+
+#btn {
+    color:white;
+    background-color:transparent;
+    width: 50px;
+    height: 25px;
+    padding-right: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#btn:hover {
+    color:black;
+    background-color:white;
+}
+
+.menubar {
+    float: right;
+    padding-top: 70px;
+}
+
+.menubar ul {
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+.menubar ul li {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.menubar ul li :hover {
+    color: black;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    background-color:black;
+}
+
+.text {
+    color:white;
+    padding: 150px;
+    font-family: sans-serif;
+    font-size: 25px;
+
+}
+
+.btn2{
+    color:white;
+    background-color:transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color:white;
+    color:black;
+}
+.menlogo {
+    padding: 50px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color:black;
+}
+.section33{
+font-family: sans-serif;
+font-size: 15px;
+color: white;
+}
+.grid-container {
+    display: grid;
+    gap: 10px;
+    background-color:black;
+    padding: 10px;
+  }
+  .grid-item {
+    text-align: center;
+    padding: 20px;
+    grid-row: 1;
+  }
+.grid-item h2{
+    color:white;
+    position: relative;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.btn3{
+    color:white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.btn3:hover{
+    color: black;
+    background-color: white;
+}
+/*
+.footeritem{
+    display: flex;
+    justify-content: space-around;
+    color:black;
+    background-color: rgb(230, 240, 146);
+    padding-top: 10px;
+}
+.footeritem h3{
+    text-decoration-line: underline;
+}
